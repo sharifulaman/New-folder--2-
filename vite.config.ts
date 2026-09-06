@@ -8,7 +8,7 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.svg', 'resume/*.pdf'],
+      includeAssets: ['favicon.png', 'resume/*.pdf'],
       manifest: {
         name: 'Shariful Aman — Software Engineer',
         short_name: 'Shariful Aman',
