@@ -1,0 +1,13 @@
+.app-shell {
+  min-height: 100vh;
+}
+
+.app-main {
+  margin-left: var(--sidebar-width);
+}
+
+@media (max-width: 1023px) {
+  .app-main {
+    margin-left: 0;
+  }
+}

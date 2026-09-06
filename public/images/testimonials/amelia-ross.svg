@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" role="img" aria-label="AR">
+  <rect width="200" height="200" fill="#0b0b0b"/>
+  <g opacity="0.5"><line x1="50" y1="0" x2="50" y2="200" stroke="#2b2b2b" stroke-width="1"/><line x1="100" y1="0" x2="100" y2="200" stroke="#2b2b2b" stroke-width="1"/><line x1="150" y1="0" x2="150" y2="200" stroke="#2b2b2b" stroke-width="1"/><line x1="0" y1="50" x2="200" y2="50" stroke="#2b2b2b" stroke-width="1"/><line x1="0" y1="100" x2="200" y2="100" stroke="#2b2b2b" stroke-width="1"/><line x1="0" y1="150" x2="200" y2="150" stroke="#2b2b2b" stroke-width="1"/></g>
+  <circle cx="100" cy="91.6" r="28.000000000000004" fill="none" stroke="#f5f5f5" stroke-width="2" opacity="0.85"/>
+  <text x="100" y="142" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#f5f5f5" letter-spacing="1">AR</text>
+  
+  <rect x="0.5" y="0.5" width="199" height="199" fill="none" stroke="#2b2b2b" stroke-width="1"/>
+</svg>

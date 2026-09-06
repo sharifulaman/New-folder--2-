@@ -1,0 +1,12 @@
+import { createContext } from "react";
+
+export type Theme = "dark" | "light";
+
+export const THEME_STORAGE_KEY = "portfolio-theme";
+
+export interface ThemeContextValue {
+  theme: Theme;
+  toggleTheme: () => void;
+}
+
+export const ThemeContext = createContext<ThemeContextValue | undefined>(undefined);

@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&display=swap");
+
+body {
+  font-family: var(--font-body);
+  color: var(--text);
+  font-size: var(--text-md);
+  line-height: 1.6;
+}
+
+.display-title,
+.section-title,
+.metric-value,
+.logo-mark {
+  font-family: var(--font-display);
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  line-height: 0.95;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+p {
+  margin: 0;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+
+.eyebrow::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--text);
+  flex: none;
+}
+
+.section-title {
+  font-size: clamp(32px, 4.2vw, var(--text-3xl));
+  font-weight: 400;
+  color: var(--text);
+  max-width: 780px;
+}
+
+.text-muted {
+  color: var(--text-muted);
+}
+
+.text-secondary {
+  color: var(--text-secondary);
+}
+
+@media (max-width: 767px) {
+  .section-title {
+    font-size: clamp(28px, 8vw, 40px);
+  }
+}
