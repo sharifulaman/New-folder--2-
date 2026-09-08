@@ -1,6 +1,4 @@
-import { ArrowUpRight } from "lucide-react";
 import SectionHeading from "../common/SectionHeading";
-import Button from "../common/Button";
 import ProjectCard from "../project/ProjectCard";
 import { projects } from "../../data/projects";
 import useReveal from "../../hooks/useReveal";
@@ -15,12 +13,7 @@ export default function FeaturedProjects() {
       <div className="container">
         <SectionHeading
           eyebrow="Featured Projects"
-          title="Selected work spanning web, mobile, and AI-driven products."
-          action={
-            <Button href="#" variant="dark" icon={ArrowUpRight}>
-              Explore All Projects
-            </Button>
-          }
+          title="Verified work across mobile, full-stack, machine learning, and databases."
         />
 
         <div className="grid grid-4 reveal" ref={revealRef}>

@@ -5,6 +5,8 @@ import type { Project } from "../../types";
 import "./ProjectCard.css";
 
 export default function ProjectCard({ project }: { project: Project }) {
+  const usesLogo = ["greenscan", "carecore-ai", "texora360"].includes(project.id);
+
   return (
     <article className="project-card card">
       <div className="project-card-head">
@@ -28,7 +30,7 @@ export default function ProjectCard({ project }: { project: Project }) {
         </div>
       </div>
 
-      <div className="project-card-image-frame">
+      <div className={`project-card-image-frame${usesLogo ? " project-card-logo-frame" : ""}`}>
         <img
           src={project.image}
           alt={`${project.title} project preview`}
@@ -36,6 +38,8 @@ export default function ProjectCard({ project }: { project: Project }) {
           className="project-card-image"
         />
       </div>
+
+      <p className="project-card-description">{project.description}</p>
 
       <ul className="project-card-tags">
         {project.technologies.map((tech) => (

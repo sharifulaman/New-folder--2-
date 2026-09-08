@@ -1,46 +1,9 @@
 import type { ExpertiseItem } from "../types";
-
 export const expertise: ExpertiseItem[] = [
-  {
-    id: "frontend",
-    icon: "code-2",
-    title: "Frontend Development",
-    description: "Modern, responsive and accessible user interfaces.",
-    technologies: ["React", "Next.js", "Tailwind CSS"],
-  },
-  {
-    id: "backend",
-    icon: "server-cog",
-    title: "Backend Development",
-    description: "Robust APIs and scalable server applications.",
-    technologies: ["Python", "FastAPI", "Node.js"],
-  },
-  {
-    id: "mobile",
-    icon: "smartphone",
-    title: "Mobile Development",
-    description: "Cross-platform mobile applications with native performance.",
-    technologies: ["Flutter", "Dart", "Firebase"],
-  },
-  {
-    id: "api-design",
-    icon: "share-2",
-    title: "API & System Design",
-    description: "Scalable systems with clean architecture and best practices.",
-    technologies: ["REST API", "GraphQL", "Microservices"],
-  },
-  {
-    id: "database-cloud",
-    icon: "database",
-    title: "Database & Cloud",
-    description: "Data modeling, cloud infrastructure and optimized queries.",
-    technologies: ["PostgreSQL", "MongoDB", "AWS"],
-  },
-  {
-    id: "devops",
-    icon: "settings-2",
-    title: "DevOps & CI/CD",
-    description: "Automated deployment and reliable delivery pipelines.",
-    technologies: ["Docker", "GitHub Actions", "Linux"],
-  },
+  { id: "mobile", icon: "smartphone", title: "Mobile Development", description: "Responsive cross-platform applications and maintainable UI.", technologies: ["Flutter", "Dart", "Android Studio"] },
+  { id: "web", icon: "code-2", title: "Full-Stack Web", description: "Frontend and backend systems built around clear user flows.", technologies: ["Next.js", "NestJS", "Node.js"] },
+  { id: "backend", icon: "server-cog", title: "Backend & APIs", description: "API integration and server-side application development.", technologies: ["REST API", "ASP.NET MVC", "PHP"] },
+  { id: "database", icon: "database", title: "Database Development", description: "Relational data modeling, queries, and database-driven systems.", technologies: ["SQL", "MySQL", "PostgreSQL", "PL/SQL"] },
+  { id: "machine-learning", icon: "share-2", title: "Machine Learning", description: "Structured-data preprocessing, modeling, and evaluation.", technologies: ["Python", "FT-Transformer", "SVM", "SMOTE"] },
+  { id: "networking", icon: "settings-2", title: "Networking", description: "Infrastructure configuration, monitoring, and troubleshooting.", technologies: ["MikroTik", "VLANs", "Routing"] },
 ];

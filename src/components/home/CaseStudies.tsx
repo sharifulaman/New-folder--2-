@@ -1,6 +1,4 @@
-import { ArrowUpRight } from "lucide-react";
 import SectionHeading from "../common/SectionHeading";
-import Button from "../common/Button";
 import { caseStudies } from "../../data/caseStudies";
 import useReveal from "../../hooks/useReveal";
 import type { CaseStudy } from "../../types";
@@ -44,16 +42,11 @@ function CaseStudyCard({ study }: { study: CaseStudy }) {
 
 export default function CaseStudies() {
   return (
-    <section id="case-studies" className="case-studies section">
+    <section id="research" className="case-studies section">
       <div className="container">
         <SectionHeading
-          eyebrow="Case Studies"
-          title="From problem statement to measurable engineering impact."
-          action={
-            <Button href="#" variant="dark" icon={ArrowUpRight}>
-              Explore Case Studies
-            </Button>
-          }
+          eyebrow="Research"
+          title="Applying machine learning to structured healthcare data."
         />
 
         <div className="case-studies-list">

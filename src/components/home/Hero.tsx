@@ -38,7 +38,7 @@ export default function Hero() {
           <div className="hero-portrait-frame">
             <img
               src="/images/profile/shariful.svg"
-              alt="Portrait of Shariful Aman, Software Engineer"
+              alt="Portrait of Md Shariful Aman, Graduate Software Engineer"
               className="hero-portrait"
               width="900"
               height="1100"

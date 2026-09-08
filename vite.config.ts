@@ -8,15 +8,20 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
+      injectRegister: null,
       includeAssets: ['favicon.png', 'resume/*.pdf'],
       manifest: {
-        name: 'Shariful Aman — Software Engineer',
+        id: '/',
+        name: 'Md Shariful Aman — Graduate Software Engineer',
         short_name: 'Shariful Aman',
         description:
-          'Software engineer building scalable web, mobile, and backend products with modern engineering practices.',
+          'Portfolio of Md Shariful Aman, a graduate software engineer building mobile, full-stack, database, and machine-learning solutions.',
         start_url: '/',
         scope: '/',
         display: 'standalone',
+        orientation: 'any',
+        lang: 'en',
+        categories: ['portfolio', 'developer', 'education'],
         background_color: '#050505',
         theme_color: '#050505',
         icons: [
@@ -32,6 +37,9 @@ export default defineConfig({
       },
       workbox: {
         globPatterns: ['**/*.{js,css,html,svg,png,ico,woff2}'],
+        navigateFallback: '/index.html',
+        cleanupOutdatedCaches: true,
+        clientsClaim: true,
       },
     }),
   ],

@@ -20,8 +20,8 @@
   --invert-text: #000000;
   --invert-bg-hover: #e5e5e5;
 
-  --success: #4ade80;
-  --danger: #ff8080;
+  --success: #ffffff;
+  --danger: #ffffff;
 
   /* Fixed text colors for content on the permanently-dark accent cards
      (Results & Metrics, Case Studies) — these never flip with the page theme. */
@@ -81,7 +81,8 @@
   --invert-bg: #000000;
   --invert-text: #ffffff;
   --invert-bg-hover: #222222;
-  --danger: #c1121f;
+  --success: #000000;
+  --danger: #000000;
 
   --shadow-soft: 0 10px 40px rgba(0, 0, 0, 0.08);
 }

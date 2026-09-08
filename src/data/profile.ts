@@ -1,42 +1,24 @@
-import type {
-  AboutContent,
-  ContactContent,
-  FinalCtaContent,
-  FooterContent,
-  Profile,
-  SkillsExperienceContent,
-  Stat,
-} from "../types";
+import type { AboutContent, ContactContent, FinalCtaContent, FooterContent, Profile, SkillsExperienceContent, Stat } from "../types";
 
 export const profile: Profile = {
-  name: "Shariful Aman",
-  firstName: "Shariful",
-  lastName: "Aman",
-  title: "Software Engineer",
-  greeting: "Hey there, I'm",
-  tagline:
-    "Building scalable products, clean interfaces, and reliable software with modern engineering practices.",
-  availability: "Available for new opportunities",
-  email: "hello@sharifulaman.dev",
-  responseTime: "Typically reply within 24 hours",
-  heroPhrases: ["Code", "Build", "Solve", "Repeat"],
+  name: "Md Shariful Aman", firstName: "Shariful", lastName: "Aman",
+  title: "Graduate Software Engineer", greeting: "Hey there, I'm",
+  tagline: "Building scalable applications, intelligent systems, and clean digital experiences.",
+  availability: "Based in Dhaka, Bangladesh", email: "sharifulamann@gmail.com",
+  responseTime: "Typically reply within 24 hours", heroPhrases: ["Mobile", "Web", "Data", "Learn"],
 };
 
 export const stats: Stat[] = [
-  { icon: "briefcase", value: "4+", label: "Years Experience" },
-  { icon: "boxes", value: "20+", label: "Projects" },
-  { icon: "layers", value: "10+", label: "Technologies" },
-  { icon: "shield-check", value: "Production Ready", label: "Real World Impact" },
+  { icon: "briefcase", value: "2", label: "Professional Internships" },
+  { icon: "boxes", value: "4", label: "CV-listed Projects" },
+  { icon: "layers", value: "1", label: "Research Project" },
+  { icon: "shield-check", value: "3.56 / 4.0", label: "AIUB CGPA" },
 ];
 
 export const about: AboutContent = {
-  eyebrow: "About",
-  heading:
-    "I build thoughtful software that turns complex problems into simple, reliable experiences.",
-  paragraph:
-    "I'm a full-stack developer who enjoys turning ideas into real products. I work across frontend, backend, mobile, and cloud — focusing on clean architecture, performance, and user experience that scales.",
-  statValue: "20+",
-  statLabel: "Projects shipped across web, mobile, and backend systems.",
+  eyebrow: "About", heading: "I turn complex problems into maintainable, user-focused software.",
+  paragraph: "I'm a Computer Science & Engineering graduate from AIUB with hands-on experience in Flutter mobile development, full-stack web systems, backend development, databases, networking, and machine learning.",
+  statValue: "BSc CSE", statLabel: "American International University-Bangladesh, graduated November 2025.",
   images: [
     { src: "/images/about/dashboard.svg", alt: "Dashboard interface preview" },
     { src: "/images/about/mobile.svg", alt: "Mobile application interface preview" },
@@ -45,47 +27,24 @@ export const about: AboutContent = {
 };
 
 export const skillsExperience: SkillsExperienceContent = {
-  eyebrow: "Skills & Experience",
-  overlayLines: ["Turning", "Ideas Into", "Real Products."],
-  coreSkills: ["Flutter", "Dart", "Python", "FastAPI", "React", "Node.js", "PostgreSQL", "Docker"],
+  eyebrow: "Skills & Experience", overlayLines: ["Build.", "Learn.", "Improve."],
+  coreSkills: ["Flutter", "Dart", "Next.js", "NestJS", "C#", "Python", "SQL", "PostgreSQL", "REST APIs", "Git"],
 };
 
 export const contact: ContactContent = {
-  eyebrow: "Contact",
-  heading: "Let's build something great.",
-  paragraph:
-    "I'm always open to discussing new opportunities, interesting projects, or technical challenges.",
-  email: "hello@sharifulaman.dev",
-  availability: "Available",
-  responseTime: "Typically reply within 24 hours",
-  interests: [
-    "Full-time role",
-    "Contract / freelance",
-    "Product collaboration",
-    "Technical consulting",
-    "Something else",
-  ],
+  eyebrow: "Contact", heading: "Let's build something useful.",
+  paragraph: "I'm open to graduate software engineering roles, product collaborations, and research conversations.",
+  email: "sharifulamann@gmail.com", availability: "Available", responseTime: "Typically reply within 24 hours",
+  interests: ["Full-time role", "Contract / freelance", "Product collaboration", "Research collaboration", "Something else"],
 };
 
 export const finalCta: FinalCtaContent = {
-  heading: "Have an idea, product, or technical challenge?",
-  subheading: "Let's turn it into reliable software.",
-  buildLines: ["Build.", "Ship.", "Improve."],
-  whyWorkWithMe: "Why work with me?",
-  benefits: [
-    "Clean Architecture",
-    "Scalable Systems",
-    "Product Thinking",
-    "Test Driven",
-    "Performance Focused",
-    "Reliable Delivery",
-    "Easy to Work With",
-  ],
+  heading: "Have an idea, product, or technical challenge?", subheading: "Let's turn it into reliable software.",
+  buildLines: ["Build.", "Ship.", "Improve."], whyWorkWithMe: "What I bring",
+  benefits: ["Flutter Development", "Full-Stack Thinking", "REST APIs", "Database Design", "Machine Learning", "Responsive UI", "Collaborative Delivery"],
 };
 
 export const footer: FooterContent = {
-  brand: "Shariful Aman",
-  copyright: `© ${new Date().getFullYear()} Shariful Aman. All rights reserved.`,
-  tagline: "Built with dedication | Let's create something amazing.",
-  sidebarQuote: "“Good software builds a better tomorrow.”",
+  brand: "Shariful Aman", copyright: `© ${new Date().getFullYear()} Md Shariful Aman. All rights reserved.`,
+  tagline: "Built with curiosity, care, and clean code.", sidebarQuote: "Building useful software, one problem at a time.",
 };
